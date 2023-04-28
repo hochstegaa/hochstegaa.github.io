@@ -4,13 +4,13 @@
     "description": "Progressive Web App that calculates the tip of a given sum",
     "icons": [
       {
-        "src": "/icons/Karl Klammers Aktien stehen schlecht.PNG",
+        "src": "icons/Karl Klammers Aktien stehen schlecht.PNG",
         "sizes": "32x32",
         "type": "image/png"
       },
     
       {
-        "src": "/icons/Karl Klammers Aktien stehen schlecht.PNG",
+        "src": "icons/Karl Klammers Aktien stehen schlecht.PNG",
         "sizes": "512x512",
         "type": "image/png"
       }
