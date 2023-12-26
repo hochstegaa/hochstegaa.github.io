@@ -4,7 +4,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-   /* width: 40%; */
+    height: 400px;
+    width: 1000px
 }
 
 #VariableDisplay {
@@ -23,6 +24,69 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1%;
+    margin-bottom: 0px;
 }
 
+.MarktButton{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.BoxContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Box{
+    overflow-y: auto;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 200px;
+    
+}
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.MarktDisplay{
+    margin-bottom: 0;
+}
+
+.TopPanel{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.TopDisplay{
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .BoxContainer {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+        align-items: stretch; /* Stretch boxes horizontally */
+    }
+
+    .Box {
+        width: 90%; /* Make each box take up full width on smaller screens */
+        margin-right: 10; /* No need for margin when boxes are stacked */
+        height: 100px;
+    }
+
+    #MainImage{
+        
+        height: 200px;
+        max-width: 110%;
+    }
+}
