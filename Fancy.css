@@ -79,12 +79,12 @@
     }
 
     .Box {
-        max-width: 110%; /* Make each box take up full width on smaller screens */
+        width: 100%; /* Make each box take up full width on smaller screens */
          /* Adjusted margin value */
-        height: 100px;
+        height: 125px;
         border: 1px solid; /* Add border to the boxes */
         box-sizing: border-box; /* Include border in box sizing */
-        font-size: 70%;
+        font-size: 80%;
     }
 
     #MainImage{
