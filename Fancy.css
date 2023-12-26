@@ -79,7 +79,7 @@
     }
 
     .Box {
-        width: 100%; /* Make each box take up full width on smaller screens */
+        width: 110%; /* Make each box take up full width on smaller screens */
          /* Adjusted margin value */
         height: 125px;
         border: 1px solid; /* Add border to the boxes */
