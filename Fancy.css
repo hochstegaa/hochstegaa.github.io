@@ -79,7 +79,7 @@
     }
 
     .Box {
-        width: 110%; /* Make each box take up full width on smaller screens */
+        width: 100%; /* Make each box take up full width on smaller screens */
          /* Adjusted margin value */
         height: 125px;
         border: 1px solid; /* Add border to the boxes */
@@ -89,7 +89,7 @@
 
     #MainImage{
         
-        height: 180px;
+        height: 150px;
         max-width: 110%;
     }
 
@@ -104,6 +104,6 @@
     }
 
     #TopPanelID{
-        margin-bottom: 0px;
+        margin-bottom: -10px;
     }
 }
