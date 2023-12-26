@@ -80,13 +80,25 @@
 
     .Box {
         width: 90%; /* Make each box take up full width on smaller screens */
-        margin-right: 10; /* No need for margin when boxes are stacked */
+        margin-right: 10px; /* Adjusted margin value */
         height: 100px;
+        border: 1px solid; /* Add border to the boxes */
+        box-sizing: border-box; /* Include border in box sizing */
     }
 
     #MainImage{
         
         height: 200px;
         max-width: 110%;
+    }
+
+    .TopDisplay {
+        margin: 0; /* Remove default margin on TopDisplay items */
+    }
+
+    .TopPanel {
+        flex-direction: column; /* Stack items vertically in TopPanel on smaller screens */
+        align-items: center; /* Center items horizontally in TopPanel */
+        text-align: center; /* Center text within TopPanel */
     }
 }
