@@ -1,0 +1,28 @@
+
+
+#MainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   /* width: 40%; */
+}
+
+#VariableDisplay {
+
+    text-align: center;
+
+}
+
+#PriceAlertDisplay {
+
+    text-align: center;
+
+}
+
+.CenterButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+}
+
