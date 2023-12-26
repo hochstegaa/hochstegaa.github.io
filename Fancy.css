@@ -75,15 +75,16 @@
 @media screen and (max-width: 600px) {
     .BoxContainer {
         flex-direction: column; /* Stack boxes vertically on smaller screens */
-        align-items: stretch; /* Stretch boxes horizontally */
+        align-items: center; /* Stretch boxes horizontally */
     }
 
     .Box {
-        width: 100%; /* Make each box take up full width on smaller screens */
-        margin-right: 10px; /* Adjusted margin value */
+        max-width: 110%; /* Make each box take up full width on smaller screens */
+         /* Adjusted margin value */
         height: 100px;
         border: 1px solid; /* Add border to the boxes */
         box-sizing: border-box; /* Include border in box sizing */
+        font-size: 70%;
     }
 
     #MainImage{
@@ -93,11 +94,11 @@
     }
 
     .TopDisplay {
-        margin: 0; /* Remove default margin on TopDisplay items */
+        margin: 20; /* Remove default margin on TopDisplay items */
     }
 
     .TopPanel {
-        flex-direction: column; /* Stack items vertically in TopPanel on smaller screens */
+        flex-direction: row; /* Stack items vertically in TopPanel on smaller screens */
         align-items: center; /* Center items horizontally in TopPanel */
         text-align: center; /* Center text within TopPanel */
     }
