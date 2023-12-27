@@ -4,7 +4,7 @@ var myVariableTotalAle = 0;
 
 var wheatPrice = 5;
 var clothesPrice = 11;
-var alePrice = 3;
+var alePrice = 1;
 
 var money = 0;
 var profitLoss = true;
@@ -122,3 +122,11 @@ function adjustMoneyAle() {
 function resetPrice(){
     wheatPrice = 5;
 }
+
+
+function preventBehavior(e) {
+    e.preventDefault(); 
+  };
+  
+  const canvas = document.getElementById('glcanvas');
+  canvas.addEventListener('touchmove', preventBehavior, false);
