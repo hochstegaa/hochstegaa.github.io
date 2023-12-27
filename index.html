@@ -23,14 +23,14 @@
             <div class="Box">
                 <ul>
                     <li>
-                        <p class="Item1">Wheat <br> Buy Price: 0 GLD</p>
+                        <p class="Item" id="Item">Wheat <br> Buy Price: 0 GLD</p>
                         
                     </li>
                     <li>
-                        <p class="Item2">Clothes <br> Buy Price: 6 GLD</p>  
+                        <p class="Item" id="Item1">Clothes <br> Buy Price: 6 GLD</p>  
                     </li>
                     <li>
-                        <p class="Item3">Ale <br> Buy Price: 3 GLD</p> 
+                        <p class="Item" id="Item2">Ale <br> Buy Price: 3 GLD</p> 
                     </li>
                 </ul>
             </div>
@@ -38,13 +38,13 @@
             <div class="Box">
                 <ul>
                         <p class="MarktDisplay" id="WheatMarkt">Wheat Selling Stats <br> ++</p>
-                        <button class="MarktButton" type="button" onclick="updateVariable()">Sell Wheat</button>
+                        <button class="MarktButton" type="button" id="WheatButton" onclick="wheatButtonCheck()">Sell Wheat</button>
 
-                        <p class="MarktDisplay" id="ClothesMarkt">Clothes Selling Stats <br> + </p>
-                        <button class="MarktButton" type="button" onclick="updateVariable()">Sell Clothes</button>
+                        <p class="MarktDisplay" id="ClothesMarkt">Clothes Selling Stats <br> +</p>
+                        <button class="MarktButton" type="button" id="ClothesButton" onclick="clothesButtonCheck()">Sell Clothes</button>
                         
                         <p class="MarktDisplay" id="AleMarkt">Ale Selling Stats <br> -</p>
-                        <button class="MarktButton" type="button" onclick="updateVariable()">Sell Ale</button>
+                        <button class="MarktButton" type="button" id="AleButton" onclick="aleButtonCheck()">Sell Ale</button>
                         
                 </ul>
             </div>
