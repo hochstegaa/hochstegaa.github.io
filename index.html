@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <script src="Logic.Js"></script>
+    <link rel="stylesheet" href="Fancy.css">
+</head>
+
+<body>
+    
+    <img id="MainImage" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d82fbd5c-3a5c-4dbe-b08a-ac2a4cab7f73/d2yduu4-26ce7be5-80ad-4094-8d16-55fd4302343f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q4MmZiZDVjLTNhNWMtNGRiZS1iMDhhLWFjMmE0Y2FiN2Y3M1wvZDJ5ZHV1NC0yNmNlN2JlNS04MGFkLTQwOTQtOGQxNi01NWZkNDMwMjM0M2YucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.R_K3FaVoY_zUCsYUexE_8IMf1BCH2GpxS8HapS1Ues0">  
+    
+    <div class="TopPanel" id="TopPanelId" style="border: 1px;">
+        <p id="MoneyDisplay">Money: 0 GLD</p>
+    </div>
+
+    <div class="TopPanel">
+        <p class="TopDisplay" id="VariableDisplay">Sold wheat sacks: 0</p> <p class="TopDisplay" id="ClothesDisplay">Sold clothes: 0</p> <p class="TopDisplay" id="AleDisplay">Sold Ale: 0</p>
+    </div>
+ 
+
+    <div class="Container">
+        <div class="BoxContainer">
+            <div class="Box">
+                <ul>
+                    <li>
+                        <p class="Item" id="Item">Wheat <br> Buy Price: 0 GLD</p>
+                        
+                    </li>
+                    <li>
+                        <p class="Item" id="Item1">Clothes <br> Buy Price: 6 GLD</p>  
+                    </li>
+                    <li>
+                        <p class="Item" id="Item2">Ale <br> Buy Price: 3 GLD</p> 
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="Box">
+                <ul>
+                        <p class="MarktDisplay" id="WheatMarkt">Wheat Selling Stats <br> ++</p>
+                        <button class="MarktButton" type="button" id="WheatButton" onclick="wheatButtonCheck()">Sell Wheat</button>
+
+                        <p class="MarktDisplay" id="ClothesMarkt">Clothes Selling Stats <br> +</p>
+                        <button class="MarktButton" type="button" id="ClothesButton" onclick="clothesButtonCheck()">Sell Clothes</button>
+                        
+                        <p class="MarktDisplay" id="AleMarkt">Ale Selling Stats <br> -</p>
+                        <button class="MarktButton" type="button" id="AleButton" onclick="aleButtonCheck()">Sell Ale</button>
+                        
+                </ul>
+            </div>
+    
+            <div class="Box">
+                <ul style="margin-right: 10%;">
+                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
+                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
+                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempota sanctus est Lorem ipsum dolor sit amet</p>
+                </ul>
+            </div>
+        </div>
+    
+    </div>
+    
+   <!-- <button class="CenterButton" type="button" onclick="resetPrice()">Reset Price!</button>
+    <p id="PriceAlertDisplay"></p>  --> 
+
+</body>

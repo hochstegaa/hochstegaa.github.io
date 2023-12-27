@@ -1,0 +1,110 @@
+
+
+#MainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px
+}
+
+#VariableDisplay {
+
+    text-align: center;
+
+}
+
+#PriceAlertDisplay {
+
+    text-align: center;
+
+}
+
+.CenterButton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.MarktButton{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.BoxContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Box{
+    overflow-y: auto;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 200px;
+    
+}
+
+.Container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.MarktDisplay{
+    margin-bottom: 0;
+}
+
+.TopPanel{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.TopDisplay{
+    margin-left: 1%;
+}
+
+@media screen and (max-width: 859px) {
+    .BoxContainer {
+        flex-direction: column; /* Stack boxes vertically on smaller screens */
+        align-items: center; /* Stretch boxes horizontally */
+        max-width: 100%;
+    }
+
+    .Box {
+        width: 100%; /* Make each box take up full width on smaller screens */
+         /* Adjusted margin value */
+        height: 125px;
+        border: 1px solid; /* Add border to the boxes */
+        box-sizing: border-box; /* Include border in box sizing */
+        font-size: 80%;
+    }
+
+    #MainImage{
+        
+        height: 150px;
+        max-width: 100%;
+    }
+
+    .TopDisplay {
+        margin: 20; /* Remove default margin on TopDisplay items */
+    }
+
+    .TopPanel {
+        flex-direction: row; /* Stack items vertically in TopPanel on smaller screens */
+        align-items: center; /* Center items horizontally in TopPanel */
+        text-align: center; /* Center text within TopPanel */
+    }
+
+    #TopPanelID{
+        margin-bottom: -10px;
+    }
+}
