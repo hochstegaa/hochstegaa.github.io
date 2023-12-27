@@ -50,8 +50,7 @@
 }
 
 .Container {
-    max-width: 100%px;
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
     align-items: center;
@@ -92,7 +91,7 @@
     #MainImage{
         
         height: 150px;
-        max-width: 110%;
+        max-width: 100%;
     }
 
     .TopDisplay {
