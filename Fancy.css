@@ -76,6 +76,7 @@
     .BoxContainer {
         flex-direction: column; /* Stack boxes vertically on smaller screens */
         align-items: center; /* Stretch boxes horizontally */
+        max-width: 100%;
     }
 
     .Box {
@@ -89,7 +90,7 @@
 
     #MainImage{
         
-        height: 150px;
+        height: 342px;
         max-width: 110%;
     }
 
