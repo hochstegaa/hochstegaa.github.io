@@ -60,7 +60,7 @@ function aleButtonCheck(){
 
 function sellingWheat(){ 
     myVariableTotalWheat++; 
-    document.getElementById("VariableDisplay").innerText="Sold wheat sacks: " + myVariableTotalWheat;
+    document.getElementById("VariableDisplay").innerText="Sold wheat sacks: "+ myVariableTotalWheat;
     checkWheatPrice();
     adjustMoney();
 }
@@ -81,19 +81,19 @@ function sellingAle(){
 function checkWheatPrice(){
     if (myVariableTotalWheat > 1){
         //Price goes down a little
-        wheatPrice *= 0.95
+        wheatPrice *= 0.85
     }
 }
 function checkClothesPrice(){
     if (myVariableTotalClothes > 1){
         //Price goes down a little
-        clothesPrice *= 0.95
+        clothesPrice *= 0.85
     }
 }
 function checkAlePrice(){
     if (myVariableTotalAle > 1){
         //Price goes down a little
-        alePrice *= 0.95
+        alePrice *= 0.85
     }
 }
 
