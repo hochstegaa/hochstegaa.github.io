@@ -39,3 +39,4 @@ function EconomicalHardshiprice(){
     alePrice *= 4;
     clothesPrice *= 1;
 }
+
