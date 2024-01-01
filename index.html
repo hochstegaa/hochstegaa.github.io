@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<head>
+<html><head><meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script src="Logic.Js"></script>
     <script src="SeasonLogic.Js"></script>
     <script src="PriceFluxLogic.Js"></script>
@@ -46,26 +45,29 @@
                         <button class="MarktButton" type="button" id="ClothesButton" onclick="clothesButtonCheck()">Sell Clothes</button>
                         
                         <p class="MarktDisplay" id="AleMarkt">Ale Selling Stats <br> -</p>
-                        <button class="MarktButton" type="button" id="AleButton" onclick="aleButtonCheck()">Sell Ale</button>
+                        <button class="MarktButton" type="button" id="AleButton" onclick="aleButtonCheck()">Sell Clothes</button>
                         
                 </ul>
             </div>
     
-            <div class="Box" style="padding-top: 5%;">
-                <div style="text-align: center; border: 1px solid;">
-                    <p id="SeasonDisplay">Current season: Summer</p>
+            <div class="Box">
+                <div style="text-align: center; border: 1px solid; margin-bottom: 1vh;">
+                    <div id="SeasonDisplay">Current season: Summer</div>
                 </div>
-                <ul style="margin-right: 10%;">
-                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
-                    <p><b>NEWS!</b> <br> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempota sanctus est Lorem ipsum dolor sit amet</p>
-                </ul>
+
+                <div>
+                    <div class="News" style="margin-bottom: 0.5vh;"><b>NEWS!</b></div> <div class="Text" id="NewsBox1" style="margin-bottom: 1vh; font-size:85%;">Standard Market Report: Merchants trade, farmers yield expected harvests. Citizens find solace in the kingdom's economic stability.</div>
+                    <div class="News" style="margin-bottom: 0.5vh;"><b>NEWS!</b></div> <div class="Text" id="NewsBox2" style="margin-bottom: 1vh; font-size:85%;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</div> 
+                    <div class="News" style="margin-bottom: 0.5vh;"><b>NEWS!</b></div> <div class="Text" id="NewsBox3" style="margin-bottom: 1vh; font-size:85%;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempota sanctus est Lorem ipsum dolor sit amet</div>
+                </div>
+                    
+            
             </div>
         </div>
-    
+       
     </div>
     
    <!-- <button class="CenterButton" type="button" onclick="resetPrice()">Reset Price!</button>
     <p id="PriceAlertDisplay"></p>  --> 
 
-</body>
+</body></html>

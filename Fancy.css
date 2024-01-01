@@ -1,4 +1,6 @@
-
+#SeasonDisplay{
+    padding: 5%;
+}
 
 #MainImage {
     display: block;
@@ -73,7 +75,7 @@
     margin-left: 1%;
 }
 
-@media screen and (max-width: 859px) {
+@media screen and (max-width: 858px) {
     .BoxContainer {
         flex-direction: column; /* Stack boxes vertically on smaller screens */
         align-items: center; /* Stretch boxes horizontally */
@@ -87,7 +89,12 @@
         border: 1px solid; /* Add border to the boxes */
         box-sizing: border-box; /* Include border in box sizing */
         font-size: 80%;
+        padding: 2vmax;
         
+    }
+
+    #SeasonDisplay{
+        padding: 1%;
     }
 
     #MainImage{

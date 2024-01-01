@@ -27,10 +27,14 @@ function wheatButtonCheck(){
     if (!isButtonClicked) {
         // Start the interval only if the button is not clicked
         intervalId = setInterval(sellingWheat, 1000);
+        document.getElementById("WheatButton").innerText="Stop Selling Wheat"
         isButtonClicked = true;
+        
     } else {
         // Stop the interval and reset the flag
         clearInterval(intervalId);
+       
+        document.getElementById("WheatButton").innerText="Sell Wheat"
         isButtonClicked = false;
     }
 }
@@ -38,10 +42,12 @@ function clothesButtonCheck(){
     if (!isButtonClicked1) {
         // Start the interval only if the button is not clicked
         intervalId1 = setInterval(sellingClothes, 5000);
+        document.getElementById("ClothesButton").innerText="Stop Selling Clothes"
         isButtonClicked1 = true;
     } else {
         // Stop the interval and reset the flag
         clearInterval(intervalId1);
+        document.getElementById("ClothesButton").innerText="Sell Clothes"
         isButtonClicked1 = false;
     }
 }
@@ -49,10 +55,13 @@ function aleButtonCheck(){
     if (!isButtonClicked2) {
         // Start the interval only if the button is not clicked
         intervalId2 = setInterval(sellingAle, 500);
+        document.getElementById("AleButton").innerText="Stop Selling Ale"
+
         isButtonClicked2 = true;
     } else {
         // Stop the interval and reset the flag
         clearInterval(intervalId2);
+        document.getElementById("AleButton").innerText="Sell Clothes"
         isButtonClicked2 = false;
     }
 }
@@ -129,4 +138,4 @@ function preventBehavior(e) {
   };
   
   const canvas = document.getElementById('glcanvas');
-  canvas.addEventListener('touchmove', preventBehavior, false);
+ 
